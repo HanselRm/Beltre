@@ -36,7 +36,8 @@ export default function Home() {
                     <div className="container mx-auto px-4 text-center">
                         <h2 className="text-3xl md:text-4xl font-light mb-6">¿Listo para tu próxima aventura?</h2>
                         <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Reserva ahora y prepárate para vivir experiencias únicas en el corazón del Caribe.</p>
-                        <button className="bg-white text-primary-600 text-lg px-8 py-3 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+                        <button className="bg-white text-primary-600 text-lg px-8 py-3 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl"
+                                onClick={() => window.open('https://wa.me/18293205694', '_blank')}>
                             Reservar Ahora
                         </button>
                     </div>
